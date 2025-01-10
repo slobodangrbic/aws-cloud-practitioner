@@ -59,3 +59,89 @@ Cloud computing is broadly categorized into three types based on service models 
 ---
 
 These types can be tailored to meet specific business requirements, offering varying levels of control, flexibility, and cost-effectiveness.
+
+
+# IAM Permissions
+
+**IAM (Identity and Access Management)** permissions define the actions and resources a user, group, or role can access in a cloud environment. These permissions ensure secure and granular control over resources.
+
+---
+
+## **Key Concepts**
+
+1. **Principals:**
+   - Entities (users, groups, roles, or services) that perform actions on resources.
+   - Examples:
+     - **AWS:** IAM users, groups, roles.
+     - **Azure:** Users, service principals, managed identities.
+     - **GCP:** Google accounts, service accounts.
+
+2. **Policies:**
+   - Documents that define permissions by specifying actions, resources, and conditions.
+   - Types:
+     - **Allow policies**: Explicitly grant access.
+     - **Deny policies**: Explicitly restrict access (overrides allow policies).
+
+3. **Actions:**
+   - Operations a principal can perform (e.g., `ec2:StartInstances` in AWS, `storage.buckets.create` in GCP).
+
+4. **Resources:**
+   - Cloud objects or entities to which permissions apply, such as VMs, storage buckets, or databases.
+
+5. **Conditions:**
+   - Optional criteria that must be met for permissions to apply (e.g., time of access, IP ranges).
+
+---
+
+## **Types of IAM Permissions**
+
+### 1. **User Permissions**
+   - Permissions assigned directly to individual users.
+   - Best for specific, unique access requirements.
+
+### 2. **Group Permissions**
+   - Permissions applied to a group of users.
+   - Easier to manage access for teams.
+
+### 3. **Role Permissions**
+   - Permissions assigned to roles that can be assumed temporarily.
+   - Commonly used for cross-account access and service permissions.
+
+### 4. **Service Account Permissions**
+   - Permissions granted to applications or services.
+   - Enable secure communication and operations between services.
+
+---
+
+## **Best Practices**
+
+1. **Principle of Least Privilege:**
+   - Grant only the permissions necessary to perform a task.
+
+2. **Use Groups and Roles:**
+   - Avoid assigning permissions directly to individual users; use groups or roles instead.
+
+3. **Regular Auditing:**
+   - Periodically review and update permissions to maintain security.
+
+4. **Conditions for Specificity:**
+   - Use conditions to narrow down the scope of access (e.g., restrict access to specific IPs or times).
+
+5. **Enable Multi-Factor Authentication (MFA):**
+   - Add an extra layer of security for sensitive permissions.
+
+---
+
+## **IAM Across Cloud Providers**
+
+### **AWS IAM:**
+   - Permissions are defined in JSON policy documents.
+   - Managed, inline, and customer-managed policies are supported.
+   - Examples:
+     - `s3:PutObject`
+     - `ec2:DescribeInstances`
+
+
+---
+
+IAM permissions play a vital role in securing cloud environments by controlling who can access and perform actions on resources.
