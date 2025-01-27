@@ -2,8 +2,6 @@
 
 This is a demo repository for the AWS Certified Cloud Practitioner course.
 
-# AWS Certified Cloud Practitioner
-
 ## Table of Contents
 1. [Types of Cloud Computing](#types-of-cloud-computing)
    - [Service Models](#service-models)
