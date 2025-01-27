@@ -2,6 +2,35 @@
 
 This is a demo repository for the AWS Certified Cloud Practitioner course.
 
+# AWS Certified Cloud Practitioner
+
+## Table of Contents
+1. [Types of Cloud Computing](#types-of-cloud-computing)
+   - [Service Models](#service-models)
+   - [Deployment Models](#deployment-models)
+2. [IAM Permissions](#iam-permissions)
+   - [Key Concepts](#key-concepts)
+   - [Types of IAM Permissions](#types-of-iam-permissions)
+   - [Best Practices](#best-practices)
+3. [Amazon EC2: Deep Summary](#amazon-ec2-deep-summary)
+   - [Key Features](#key-features)
+   - [Common Use Cases](#common-use-cases)
+   - [Management Tools](#management-tools)
+4. [EC2 Storage Summary](#ec2-storage-summary)
+   - [Instance Store](#1-instance-store-ephemeral-storage)
+   - [Amazon EBS](#2-amazon-elastic-block-store-ebs)
+   - [Amazon EFS](#3-amazon-elastic-file-system-efs)
+   - [Amazon FSx](#4-amazon-fsx)
+   - [Amazon S3](#5-amazon-s3-object-storage)
+5. [AWS Vertical and Horizontal Scalability](#aws-vertical-and-horizontal-scalability)
+   - [Vertical Scalability](#vertical-scalability-scaling-up)
+   - [Horizontal Scalability](#horizontal-scalability-scaling-out)
+6. [ELB and ASG Summary](#elb-elastic-load-balancer-and-asg-auto-scaling-group-summary)
+   - [Elastic Load Balancer](#elastic-load-balancer-elb)
+   - [Auto Scaling Group](#auto-scaling-group-asg)
+
+This is a demo repository for the AWS Certified Cloud Practitioner course.
+
 # Types of Cloud Computing
 
 Cloud computing is broadly categorized into three types based on service models and four types based on deployment models. Here's an overview:
